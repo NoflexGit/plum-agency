@@ -26,7 +26,7 @@ export default class FeaturePage extends React.Component {
             content="Feature page of React.js Boilerplate application"
           />
         </Helmet>
-        <h1>Features</h1>
+        <h1>Feature</h1>
         <ul>
           <li>
             <p className="title">Next generation JavaScript</p>
