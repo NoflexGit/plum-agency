@@ -1,26 +1,23 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Banner from './images/banner.jpg';
-import './style.scss';
+import PropTypes from 'prop-types';
+import Logo from 'components/Logo';
+import Nav from 'components/Navigation';
 
-class Header extends React.Component { // eslint-disable-line react/prefer-stateless-function
+class HeaderComponent extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
+    const { className } = this.props;
     return (
-      <div className="header">
-        <a href="https://twitter.com/flexdinesh">
-          <img src={Banner} alt="react-redux-boilerplate - Logo" />
-        </a>
-        <div className="nav-bar">
-          <Link className="router-link" to="/">
-            Home
-          </Link>
-          <Link className="router-link" to="/features">
-            Features
-          </Link>
-        </div>
+      <div className={className}>
+        <Logo />
+        <Nav />
       </div>
     );
   }
 }
 
-export default Header;
+export default HeaderComponent;
+
+HeaderComponent.propTypes = {
+  className: PropTypes.string
+};
+
