@@ -12,8 +12,7 @@ export const AppWrapper = styled.div`
 `;
 
 export const Header = styled(HeaderComponent)`
-  margin: 25px auto 0 auto;
-  width: 1100px;
+  margin-top: 25px;
   display: flex;
   align-items: center;
   

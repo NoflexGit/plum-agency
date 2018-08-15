@@ -1,0 +1,139 @@
+{
+  "events": {
+    "featured": [
+      {
+        "id": "5b741152d40e8ec4a8c2dec9",
+        "title": "Park Live",
+        "isActive": true,
+        "picture": "https://trip2fest.ru/sites/default/files/festivals/logos/tsotdq3fbjc.jpg",
+        "place": "Moscow, Gorky Park",
+        "about": "Exercitation sint consectetur enim ea deserunt id exercitation dolore irure quis sunt dolor. Ea aute tempor aliqua laborum dolor eiusmod cillum. Laboris est consectetur laborum ex id excepteur pariatur est Lorem enim.\r\n",
+        "date": {
+          "day": "28",
+          "month": "July",
+          "time": "10:00"
+        },
+        "startPrice": "80$",
+        "tags": [
+          "alternative",
+          "rock",
+          "concert"
+        ]
+      },
+      {
+        "id": "5b74115332d40e8ec4a8c32ec9",
+        "title": "Metallica",
+        "isActive": true,
+        "picture": "https://blackbirdradio.ru/user/images/news/june2017/funko-vypuskayut-miniatyurnye-figurki-metallica.jpg",
+        "place": "Moscow, Luzhniki Stadium",
+        "about": "Exercitation sint consectetur enim ea deserunt id exercitation dolore irure quis sunt dolor. Ea aute tempor aliqua laborum dolor eiusmod cillum. Laboris est consectetur laborum ex id excepteur pariatur est Lorem enim.\r\n",
+        "date": {
+          "day": "28",
+          "month": "July",
+          "time": "10:00"
+        },
+        "startPrice": "20$",
+        "tags": [
+          "alternative",
+          "rock",
+          "concert"
+        ]
+      },
+      {
+        "id": "5b7411512id40e8ec4a8c32ec9",
+        "title": "Twenty One Pilots",
+        "isActive": true,
+        "picture": "https://avatars.mds.yandex.net/get-zen_doc/251164/pub_5b45f26f2baedb00a94fb00a_5b45f31223534700a9ce8078/orig",
+        "place": "Moscow, Crocus City Hall",
+        "about": "Exercitation sint consectetur enim ea deserunt id exercitation dolore irure quis sunt dolor. Ea aute tempor aliqua laborum dolor eiusmod cillum. Laboris est consectetur laborum ex id excepteur pariatur est Lorem enim.\r\n",
+        "date": {
+          "day": "18",
+          "month": "July",
+          "time": "19:00"
+        },
+        "startPrice": "20$",
+        "tags": [
+          "alternative",
+          "rock",
+          "concert"
+        ]
+      }
+    ],
+    "upcoming": [
+      {
+        "id": "5b741152d40e8ec4a8c2dec9",
+        "title": "Imagine Dragons",
+        "isActive": true,
+        "picture": "https://www.reviewjournal.com/wp-content/uploads/2017/09/9258551_web1_imagine-dragons_crop.jpg",
+        "place": "Moscow, Otkritie Arena",
+        "about": "Exercitation sint consectetur enim ea deserunt id exercitation dolore irure quis sunt dolor. Ea aute tempor aliqua laborum dolor eiusmod cillum. Laboris est consectetur laborum ex id excepteur pariatur est Lorem enim.\r\n",
+        "date": "19 May, 19:00",
+        "startPrice": "30$",
+        "tags": [
+          "alternative",
+          "rock",
+          "concert"
+        ]
+      },
+      {
+        "id": "5b741152d40e8ec4a8c32ec9",
+        "title": "Metallica",
+        "isActive": true,
+        "picture": "https://blackbirdradio.ru/user/images/news/june2017/funko-vypuskayut-miniatyurnye-figurki-metallica.jpg",
+        "place": "Moscow, Luzhniki Stadium",
+        "about": "Exercitation sint consectetur enim ea deserunt id exercitation dolore irure quis sunt dolor. Ea aute tempor aliqua laborum dolor eiusmod cillum. Laboris est consectetur laborum ex id excepteur pariatur est Lorem enim.\r\n",
+        "date": "25 May, 16:00",
+        "startPrice": "20$",
+        "tags": [
+          "alternative",
+          "rock",
+          "concert"
+        ]
+      },
+      {
+        "id": "5b741x5d1208ec4a8c32ec9",
+        "title": "Massive Attack",
+        "isActive": true,
+        "picture": "https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/d/d3/Massive_Attack.jpg/revision/latest?cb=20180320211311",
+        "place": "Moscow, VEB Arena",
+        "about": "Exercitation sint consectetur enim ea deserunt id exercitation dolore irure quis sunt dolor. Ea aute tempor aliqua laborum dolor eiusmod cillum. Laboris est consectetur laborum ex id excepteur pariatur est Lorem enim.\r\n",
+        "date": "02 June, 18:00",
+        "startPrice": "15$",
+        "tags": [
+          "alternative",
+          "rock",
+          "concert"
+        ]
+      },
+      {
+        "id": "5b741x5d1208ec4a7uc32ec9ew",
+        "title": "Dance Gavin Dance",
+        "isActive": true,
+        "picture": "https://aestheticmag.files.wordpress.com/2018/06/dance-gavin-dance-press-2018-copy.jpg?w=750&h=750",
+        "place": "Moscow, VEB Arena",
+        "about": "Exercitation sint consectetur enim ea deserunt id exercitation dolore irure quis sunt dolor. Ea aute tempor aliqua laborum dolor eiusmod cillum. Laboris est consectetur laborum ex id excepteur pariatur est Lorem enim.\r\n",
+        "date": "03 June, 19:00",
+        "startPrice": "25$",
+        "tags": [
+          "alternative",
+          "rock",
+          "concert"
+        ]
+      },
+      {
+        "id": "5b741x5d1208ec4a7uc32ec9",
+        "title": "Ahmad Tea Music Festival",
+        "isActive": true,
+        "picture": "http://blog.soulplay.ru/wp-content/uploads/%5EEF0B6D406ED5AC715F8DFEC1E9B1E4ACE8B41C6AF1C121D732%5Epimgpsh_fullsize_distr.jpg",
+        "place": "Moscow, Kolomenskoe Park",
+        "about": "Exercitation sint consectetur enim ea deserunt id exercitation dolore irure quis sunt dolor. Ea aute tempor aliqua laborum dolor eiusmod cillum. Laboris est consectetur laborum ex id excepteur pariatur est Lorem enim.\r\n",
+        "date": "10 June, 15:00",
+        "startPrice": "25$",
+        "tags": [
+          "festival",
+          "concert"
+        ]
+      }
+    ]
+  }
+}

@@ -1,12 +1,14 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Switch, Route } from 'react-router-dom';
+import { Container } from 'react-rasta';
 
 import HomePage from 'containers/HomePage/Loadable';
 import FeaturePage from 'containers/TicketsPage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import Footer from 'components/Footer';
 import { AppWrapper, HeaderWrapper, Header } from './styles';
+
 
 const App = () => (
   <AppWrapper>
@@ -17,7 +19,9 @@ const App = () => (
       <meta name="description" content="A React.js Boilerplate application" />
     </Helmet>
     <HeaderWrapper>
-      <Header />
+      <Container>
+        <Header />
+      </Container>
     </HeaderWrapper>
     <Switch>
       <Route exact path="/" component={HomePage} />
