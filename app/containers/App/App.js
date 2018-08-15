@@ -6,7 +6,7 @@ import HomePage from 'containers/HomePage/Loadable';
 import FeaturePage from 'containers/TicketsPage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import Footer from 'components/Footer';
-import { AppWrapper, StyledHeader, HeaderWrapper } from './styles';
+import { AppWrapper, HeaderWrapper, Header } from './styles';
 
 const App = () => (
   <AppWrapper>
@@ -17,7 +17,7 @@ const App = () => (
       <meta name="description" content="A React.js Boilerplate application" />
     </Helmet>
     <HeaderWrapper>
-      <StyledHeader />
+      <Header />
     </HeaderWrapper>
     <Switch>
       <Route exact path="/" component={HomePage} />

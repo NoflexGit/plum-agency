@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { COLOR_BLACK } from 'styles/styles-variables';
-import Header from 'components/Header';
+import HeaderComponent from 'components/Header';
 
 export const AppWrapper = styled.div`
   width: 100vw;
@@ -11,8 +11,7 @@ export const AppWrapper = styled.div`
   flex-direction: column;
 `;
 
-export const StyledHeader = styled(Header)`
-  color: ${COLOR_BLACK};
+export const Header = styled(HeaderComponent)`
   margin: 25px auto 0 auto;
   width: 1100px;
   display: flex;
