@@ -10,6 +10,7 @@ import propTypes from 'prop-types';
 import Page from 'components/Page';
 import SimpleCard from 'components/Cards/Simple';
 import FeaturedCard from 'components/Cards/Featured';
+import CategoryCard from 'components/Cards/Category';
 
 const TicketPage = styled(Page)`
   background-color: #5c2879;
@@ -53,6 +54,19 @@ export default class TicketPageComponent extends React.Component {// eslint-disa
                 }}
               >
                 <SimpleCard item={item} />
+              </Column>
+            ))}
+          </Row>
+          <Row>
+            {events.categories && events.categories.map((item) => (
+              <Column
+                key={item.id}
+                size={{
+                  sm: 6,
+                  md: 4,
+                }}
+              >
+                <CategoryCard item={item} />
               </Column>
             ))}
           </Row>

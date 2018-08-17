@@ -59,6 +59,32 @@
         ]
       }
     ],
+    "categories": [
+      {
+        "id": "5b741152d40e78u8c2dec9",
+        "title": "Soul Music",
+        "isActive": true,
+        "picture": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=96b6eb1c3bac5a2a548d7f90020bef2f&auto=format&fit=crop&w=2100&q=80",
+        "about": "Exercitation sint consectetur enim ea deserunt id exercitation dolore irure quis sunt dolor. Ea aute tempor aliqua laborum dolor eiusmod cillum. Laboris est consectetur laborum ex id excepteur pariatur est Lorem enim.\r\n",
+        "itemsCount": 8
+      },
+      {
+        "id": "9004115332d40e8ec4a8c32ec9",
+        "title": "Rock Music",
+        "isActive": true,
+        "picture": "https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bbaaf356e5f8bb5623631bf7f5f37b91&auto=format&fit=crop&w=2100&q=80",
+        "about": "Exercitation sint consectetur enim ea deserunt id exercitation dolore irure quis sunt dolor. Ea aute tempor aliqua laborum dolor eiusmod cillum. Laboris est consectetur laborum ex id excepteur pariatur est Lorem enim.\r\n",
+        "itemsCount": 12
+      },
+      {
+        "id": "9004115332d40e8ec4a8c32ec9",
+        "title": "Festivals",
+        "isActive": true,
+        "picture": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-0.3.5&s=1c98137a7810a5d5e853b2d7736fd3bb&auto=format&fit=crop&w=2100&q=80",
+        "about": "Exercitation sint consectetur enim ea deserunt id exercitation dolore irure quis sunt dolor. Ea aute tempor aliqua laborum dolor eiusmod cillum. Laboris est consectetur laborum ex id excepteur pariatur est Lorem enim.\r\n",
+        "itemsCount": 4
+      }
+    ],
     "upcoming": [
       {
         "id": "5b741152d40e8ec4a8c2dec9",

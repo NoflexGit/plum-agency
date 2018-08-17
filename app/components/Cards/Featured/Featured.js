@@ -20,7 +20,9 @@ const FeaturedCardInfo = styled(CardInfo)`
 `;
 
 const FeaturedCardDate = styled.div`
-  width: 60px;
+  width: 45px;
+  margin-right: 15px;
+  border-right: 1px solid rgba(255, 255, 255, .4);
 
   h3 {
     margin: 0;
