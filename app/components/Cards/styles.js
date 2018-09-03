@@ -7,7 +7,7 @@ export const Card = styled.article`
   background: ${COLOR_WHITE} url(${(props) => props.background}) center;
   background-size: cover;
   border-radius: 10px;
-  box-shadow: 0 8px 25px 0 rgba(35,19,69,1);
+  //box-shadow: 0 8px 25px 0 rgba(35,19,69,1);
   transition: all .25s cubic-bezier(0.42,0,0.58,1);
   padding: 20px;
   overflow: hidden;
@@ -16,7 +16,7 @@ export const Card = styled.article`
   
   &:hover {
     cursor: pointer;
-    box-shadow: 0 8px 35px 0 rgba(35,19,69,.7);
+    box-shadow: 0 8px 35px 0 rgba(35,19,69,.5);
     transform: translateY(-5px);
   }
 `;

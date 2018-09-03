@@ -4,27 +4,31 @@ import { createStructuredSelector } from 'reselect';
 import injectReducer from 'utils/injectReducer';
 import injectSaga from 'utils/injectSaga';
 import { makeSelectLocation } from 'containers/App/selectors';
-import { makeSelectEvents } from './selectors';
-
-
-import { loadEvents } from './actions';
+import {
+  makeSelectEvents,
+  makeSelectErrors,
+  makeSelectLoading
+} from './selectors';
+import { getCategories } from './actions';
 import reducer from './reducer';
 import saga from './saga';
-import TicketPage from './TicketPage';
+import EventCategories from './EventCategories';
 
 const mapDispatchToProps = (dispatch) => ({
-  getEvents: () => dispatch(loadEvents())
+  getCategories: () => dispatch(getCategories())
 });
 
 const mapStateToProps = createStructuredSelector({
-  blocks: makeSelectEvents(),
+  categories: makeSelectEvents(),
+  errors: makeSelectErrors(),
+  loading: makeSelectLoading(),
   location: makeSelectLocation()
 });
 
 const withConnect = connect(mapStateToProps, mapDispatchToProps);
 
-const withReducer = injectReducer({ key: 'blocks', reducer });
-const withSaga = injectSaga({ key: 'blocks', saga });
+const withReducer = injectReducer({ key: 'event_categories', reducer });
+const withSaga = injectSaga({ key: 'event_categories', saga });
 
-export default compose(withReducer, withSaga, withConnect)(TicketPage);
+export default compose(withReducer, withSaga, withConnect)(EventCategories);
 export { mapDispatchToProps };

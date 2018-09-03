@@ -7,7 +7,7 @@ import { eventsLoaded, eventsLoadingError } from './actions';
 /**
  */
 export function* getRepos() {
-  const requestURL = 'http://localhost:3010/events';
+  const requestURL = 'http://localhost:3010/blocks';
 
   try {
     const events = yield call(request, requestURL);

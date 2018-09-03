@@ -1,5 +1,22 @@
 {
-  "events": {
+  "categories": [
+    {
+      "id": 1,
+      "title": "Concerts",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "title": "Festivals",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "title": "Shows",
+      "isActive": true
+    }
+  ],
+  "blocks": {
     "featured": [
       {
         "id": "5b741152d40e8ec4a8c2dec9",
@@ -21,7 +38,7 @@
         ]
       },
       {
-        "id": "5b74115332d40e8ec4a8c32ec9",
+        "id": "5b74115332d40e8ec4a8c32ec921",
         "title": "Metallica",
         "isActive": true,
         "picture": "https://blackbirdradio.ru/user/images/news/june2017/funko-vypuskayut-miniatyurnye-figurki-metallica.jpg",
@@ -40,7 +57,7 @@
         ]
       },
       {
-        "id": "5b7411512id40e8ec4a8c32ec9",
+        "id": "5b7411512id40e8ec4a8c32ec91",
         "title": "Twenty One Pilots",
         "isActive": true,
         "picture": "https://avatars.mds.yandex.net/get-zen_doc/251164/pub_5b45f26f2baedb00a94fb00a_5b45f31223534700a9ce8078/orig",
@@ -75,14 +92,6 @@
         "picture": "https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bbaaf356e5f8bb5623631bf7f5f37b91&auto=format&fit=crop&w=2100&q=80",
         "about": "Exercitation sint consectetur enim ea deserunt id exercitation dolore irure quis sunt dolor. Ea aute tempor aliqua laborum dolor eiusmod cillum. Laboris est consectetur laborum ex id excepteur pariatur est Lorem enim.\r\n",
         "itemsCount": 12
-      },
-      {
-        "id": "9004115332d40e8ec4a8c32ec9",
-        "title": "Festivals",
-        "isActive": true,
-        "picture": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-0.3.5&s=1c98137a7810a5d5e853b2d7736fd3bb&auto=format&fit=crop&w=2100&q=80",
-        "about": "Exercitation sint consectetur enim ea deserunt id exercitation dolore irure quis sunt dolor. Ea aute tempor aliqua laborum dolor eiusmod cillum. Laboris est consectetur laborum ex id excepteur pariatur est Lorem enim.\r\n",
-        "itemsCount": 4
       }
     ],
     "upcoming": [
@@ -160,6 +169,127 @@
           "concert"
         ]
       }
+    ],
+    "popular": [
+      {
+        "id": "5b741152d40e8ec4a8c2dec9",
+        "title": "Angus and Julia Stone",
+        "isActive": true,
+        "picture": "https://i0.wp.com/scenetv.com.au/wp-content/uploads/2017/06/angusjuliastone_640.jpg?fit=640%2C420&ssl=1",
+        "place": "Moscow, Otkritie Arena",
+        "about": "Exercitation sint consectetur enim ea deserunt id exercitation dolore irure quis sunt dolor. Ea aute tempor aliqua laborum dolor eiusmod cillum. Laboris est consectetur laborum ex id excepteur pariatur est Lorem enim.\r\n",
+        "date": "19 May, 19:00",
+        "startPrice": "30$",
+        "tags": [
+          "alternative",
+          "rock",
+          "concert"
+        ]
+      },
+      {
+        "id": "5b741152d40e33123c2dec9",
+        "title": "Imagine Dragons",
+        "isActive": true,
+        "picture": "https://www.reviewjournal.com/wp-content/uploads/2017/09/9258551_web1_imagine-dragons_crop.jpg",
+        "place": "Moscow, Otkritie Arena",
+        "about": "Exercitation sint consectetur enim ea deserunt id exercitation dolore irure quis sunt dolor. Ea aute tempor aliqua laborum dolor eiusmod cillum. Laboris est consectetur laborum ex id excepteur pariatur est Lorem enim.\r\n",
+        "date": "19 May, 19:00",
+        "startPrice": "30$",
+        "tags": [
+          "alternative",
+          "rock",
+          "concert"
+        ]
+      },
+      {
+        "id": "5b741152d40e8ec4a8c32ec9",
+        "title": "Modest Mouse",
+        "isActive": true,
+        "picture": "http://www.kansascity.com/latest-news/by7r7a/picture210718134/ALTERNATES/FREE_1140/modest%20mouse.jpg",
+        "place": "Moscow, Luzhniki Stadium",
+        "about": "Exercitation sint consectetur enim ea deserunt id exercitation dolore irure quis sunt dolor. Ea aute tempor aliqua laborum dolor eiusmod cillum. Laboris est consectetur laborum ex id excepteur pariatur est Lorem enim.\r\n",
+        "date": "25 May, 16:00",
+        "startPrice": "20$",
+        "tags": [
+          "alternative",
+          "rock",
+          "concert"
+        ]
+      },
+      {
+        "id": "5b741x5d1208ec4a8c32ec9",
+        "title": "Massive Attack",
+        "isActive": true,
+        "picture": "https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/d/d3/Massive_Attack.jpg/revision/latest?cb=20180320211311",
+        "place": "Moscow, VEB Arena",
+        "about": "Exercitation sint consectetur enim ea deserunt id exercitation dolore irure quis sunt dolor. Ea aute tempor aliqua laborum dolor eiusmod cillum. Laboris est consectetur laborum ex id excepteur pariatur est Lorem enim.\r\n",
+        "date": "02 June, 18:00",
+        "startPrice": "15$",
+        "tags": [
+          "alternative",
+          "rock",
+          "concert"
+        ]
+      }
     ]
-  }
+  },
+  "events": [
+    {
+      "id": "5b741152d40e8ec4a8c2dec9",
+      "title": "Park Live",
+      "isActive": true,
+      "picture": "https://trip2fest.ru/sites/default/files/festivals/logos/tsotdq3fbjc.jpg",
+      "place": "Moscow, Gorky Park",
+      "about": "Exercitation sint consectetur enim ea deserunt id exercitation dolore irure quis sunt dolor. Ea aute tempor aliqua laborum dolor eiusmod cillum. Laboris est consectetur laborum ex id excepteur pariatur est Lorem enim.\r\n",
+      "date": {
+        "day": "28",
+        "month": "July",
+        "time": "10:00"
+      },
+      "startPrice": "80$",
+      "tags": [
+        "alternative",
+        "rock",
+        "concert"
+      ]
+    },
+    {
+      "id": "5b74115332d40e8ec4a8c32ec921",
+      "title": "Metallica",
+      "isActive": true,
+      "picture": "https://blackbirdradio.ru/user/images/news/june2017/funko-vypuskayut-miniatyurnye-figurki-metallica.jpg",
+      "place": "Moscow, Luzhniki Stadium",
+      "about": "Exercitation sint consectetur enim ea deserunt id exercitation dolore irure quis sunt dolor. Ea aute tempor aliqua laborum dolor eiusmod cillum. Laboris est consectetur laborum ex id excepteur pariatur est Lorem enim.\r\n",
+      "date": {
+        "day": "28",
+        "month": "July",
+        "time": "10:00"
+      },
+      "startPrice": "20$",
+      "tags": [
+        "alternative",
+        "rock",
+        "concert"
+      ]
+    },
+    {
+      "id": "5b7411512id40e8ec4a8c32ec91",
+      "title": "Twenty One Pilots",
+      "isActive": true,
+      "picture": "https://avatars.mds.yandex.net/get-zen_doc/251164/pub_5b45f26f2baedb00a94fb00a_5b45f31223534700a9ce8078/orig",
+      "place": "Moscow, Crocus City Hall",
+      "about": "Exercitation sint consectetur enim ea deserunt id exercitation dolore irure quis sunt dolor. Ea aute tempor aliqua laborum dolor eiusmod cillum. Laboris est consectetur laborum ex id excepteur pariatur est Lorem enim.\r\n",
+      "date": {
+        "day": "18",
+        "month": "July",
+        "time": "19:00"
+      },
+      "startPrice": "20$",
+      "tags": [
+        "alternative",
+        "rock",
+        "concert"
+      ]
+    }
+  ]
 }

@@ -1,1 +1,1 @@
-export { default } from './CostMarker';
+export { default } from './CostLabel';

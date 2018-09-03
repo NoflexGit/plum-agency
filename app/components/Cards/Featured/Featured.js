@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 import propTypes from 'prop-types';
 
 import {
@@ -43,20 +44,22 @@ const FeaturedCardTicketCost = styled(CostLabel)`
 `;
 
 const FeaturedCardComponent = (props) => (
-  <FeaturedCard background={props.item.picture}>
-    <FeaturedCardTicketCost value={props.item.startPrice} />
-    <FeaturedCardInfo>
-      <FeaturedCardDate>
-        <h3>{props.item.date.day}</h3>
-        <p>{props.item.date.month}</p>
-        <p>{props.item.date.time}</p>
-      </FeaturedCardDate>
-      <div>
-        <CardTitle>{props.item.title}</CardTitle>
-        <CardLocation>{props.item.place}</CardLocation>
-      </div>
-    </FeaturedCardInfo>
-  </FeaturedCard>
+  <NavLink to={`/event/${props.item.id}`}>
+    <FeaturedCard background={props.item.picture}>
+      <FeaturedCardTicketCost value={props.item.startPrice} />
+      <FeaturedCardInfo>
+        <FeaturedCardDate>
+          <h3>{props.item.date.day}</h3>
+          <p>{props.item.date.month}</p>
+          <p>{props.item.date.time}</p>
+        </FeaturedCardDate>
+        <div>
+          <CardTitle>{props.item.title}</CardTitle>
+          <CardLocation>{props.item.place}</CardLocation>
+        </div>
+      </FeaturedCardInfo>
+    </FeaturedCard>
+  </NavLink>
 );
 
 export default FeaturedCardComponent;

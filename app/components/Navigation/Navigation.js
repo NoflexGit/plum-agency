@@ -17,7 +17,6 @@ const StyledNavLink = styled(NavLink)`
   
   &.active {
     color: #FF455A;
-    pointer-events: none;
   }
 
   &:first-child {
@@ -28,7 +27,7 @@ const StyledNavLink = styled(NavLink)`
 const Navigation = () => (
   <nav>
     <StyledNavLink exact to="/">Home</StyledNavLink>
-    <StyledNavLink to="/tickets">Tickets</StyledNavLink>
+    <StyledNavLink to="/events">Events</StyledNavLink>
     {/*<StyledNavLink to="/tickets">Contacts</StyledNavLink>*/}
   </nav>
 );

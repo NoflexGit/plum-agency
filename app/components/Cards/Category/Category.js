@@ -5,12 +5,19 @@ import { COLOR_WHITE } from 'styles/styles-variables';
 
 const CategoryCard = styled.article`
   position: relative; 
-  height: 200px;
+  height: 150px;
   background: ${COLOR_WHITE} url(${(props) => props.background}) center;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 25px;
+  
+  &:hover {
+    &:before {
+      background-color: rgba(0,0,0,.3);
+    }
+  }
   
   &:before {
     position: absolute;
@@ -31,11 +38,12 @@ const CategoryCardInfo = styled.div`
   text-align: center;
   
   span {
-    opacity: .7;
+    opacity: .8;
+    font-size: 13px;
   }
   
   p {
-    margin: 10px 0 0 0;
+    margin: 8px 0 0 0;
     font-size: 18px;
     font-weight: 500;
   }

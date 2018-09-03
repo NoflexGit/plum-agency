@@ -1,34 +1,33 @@
 import { fromJS } from 'immutable';
 
-import { LOAD_EVENTS, LOAD_EVENTS_ERROR, LOAD_EVENTS_SUCCESS } from './constants';
+import { LOAD_EVENT, LOAD_EVENT_ERROR, LOAD_EVENT_SUCCESS } from './constants';
 
-// The initial state of the App
 const initialState = fromJS({
-  blocks: false,
+  event: false,
   loading: false,
   error: false
 });
 
-function ticketsReducer(state = initialState, action) {
+function eventReducer(state = initialState, action) {
   switch (action.type) {
-    case LOAD_EVENTS:
+    case LOAD_EVENT:
       return state
         .set('loading', true)
-        .set('blocks', false)
+        .set('event', false)
         .set('error', false);
-    case LOAD_EVENTS_SUCCESS:
+    case LOAD_EVENT_SUCCESS:
       return state
         .set('loading', false)
-        .set('blocks', action.events)
+        .set('event', action.event)
         .set('error', false);
-    case LOAD_EVENTS_ERROR:
+    case LOAD_EVENT_ERROR:
       return state
         .set('loading', false)
-        .set('blocks', false)
+        .set('event', false)
         .set('error', true);
     default:
       return state;
   }
 }
 
-export default ticketsReducer;
+export default eventReducer;

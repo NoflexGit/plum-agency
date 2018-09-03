@@ -1,18 +1,24 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { Container } from 'react-rasta';
 import { COLOR_WHITE } from 'styles/styles-variables';
 
-const PageBlock = styled(Link)`
-  font-size: 24px;
-  text-transform: uppercase;
-  line-height: 18px;
-  font-weight: 600;
-  color: ${COLOR_WHITE};
+const PageBlock = styled.div`
+  margin-bottom: 50px;
 `;
 
-const LogoComponent = () => (
-  <PageBlock to={'/'}>Plum</PageBlock>
+const Title = styled.h3`
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  line-height: 28px;
+`;
+
+const LogoComponent = (props) => (
+  <Container>
+    { props.title && <Title>{props.title}</Title> }
+    <PageBlock>{props.children}</PageBlock>
+  </Container>
 );
 
 export default LogoComponent;

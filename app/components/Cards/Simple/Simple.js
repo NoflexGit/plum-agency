@@ -11,7 +11,7 @@ import {
 } from 'components/Cards/styles';
 
 const SimpleCard = styled(Card)`
-  height: 260px;
+  height: 240px;
 `;
 
 const SimpleCardDate = styled.div`
