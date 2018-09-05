@@ -244,7 +244,8 @@
       "date": {
         "day": "28",
         "month": "July",
-        "time": "10:00"
+        "time": "10:00",
+        "full": "July 28 10:00"
       },
       "startPrice": "80$",
       "tags": [
@@ -263,7 +264,8 @@
       "date": {
         "day": "28",
         "month": "July",
-        "time": "10:00"
+        "time": "10:00",
+        "full": "July 18 19:00"
       },
       "startPrice": "20$",
       "tags": [
@@ -282,7 +284,8 @@
       "date": {
         "day": "18",
         "month": "July",
-        "time": "19:00"
+        "time": "19:00",
+        "full": "July 18 19:00"
       },
       "startPrice": "20$",
       "tags": [
